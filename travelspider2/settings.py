@@ -56,6 +56,8 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+
+ #启动管道 设定优先级为300
 ITEM_PIPELINES = {
    'travelspider2.pipelines.ExcelPipeline': 300,
 }

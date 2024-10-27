@@ -8,6 +8,8 @@ from scrapy import signals
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
 
+#定义Scrapy框架中的爬虫中间件（spider middleware）和下载器中间件（downloader middleware）
+#它们用于处理爬虫在处理请求和响应时的逻辑。
 
 class TravelspiderSpiderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
